@@ -14,6 +14,7 @@ instruction_t *get_op_function(const char *opcode)
 		{"pall", pall},
 		{"pint", pint},
 		{"pop", pop},
+		{"swap", swap},
 
 		{NULL, NULL}};
 
