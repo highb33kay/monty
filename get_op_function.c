@@ -12,6 +12,7 @@ instruction_t *get_op_function(const char *opcode)
 	static instruction_t op_functions[] = {
 		{"push", push},
 		{"pall", pall},
+		{"pint", pint},
 
 		{NULL, NULL}};
 
